@@ -1,0 +1,27 @@
+1: git init	(Khởi tạo git) 
+
+2: git remote add origin https://github.com/Van207/testGit.git
+
+3: git add .	(Kiểm tra sự thêm mới file của project)
+
+4: git commit -m "Noi dung"
+
+5: git push 	(đẩy code)
+
+
+
+
+			-------Tạo Nhánh-----
+
+1: git branch beta 	(Tạo branch beta ở local)
+2: git push origin beta 	(Tạo branch beta trên repo)
+3: git checkout beta (Chuyển sang branch beta)
+
+			-------Xóa nhánh------
+
+1: git branch -d beta 	(Xóa branch beta ở local)
+2: git push origin --delete beta (Xóa branch beta trên repo)
+
+--git merge beta (gộp code từ nhánh beta)
+--git clone --branch beta https://github.com/bacvipdaik/testgit.git . (kéo code từ nhánh beta về local)
+-- git revert (quay lại 1 bước)
